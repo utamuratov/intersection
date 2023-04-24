@@ -1,24 +1,50 @@
 # NgxIntersection
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+This component handles the intersection point of viewport with observed element.
+[DEMO](https://stackblitz.com/edit/angular-aj7f19?file=src/main.ts)
 
-## Code scaffolding
+# Installation
 
-Run `ng generate component component-name --project ngx-intersection` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ngx-intersection`.
-> Note: Don't forget to add `--project ngx-intersection` or else it will be added to the default project in your `angular.json` file. 
+Use this following command to install:
 
-## Build
+```bash
+npm i ngx-intersection
+```
 
-Run `ng build ngx-intersection` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Usage
 
-## Publishing
+You can import the component(standalone component) into your module or component which you want to use:
 
-After building your library with `ng build ngx-intersection`, go to the dist folder `cd dist/ngx-intersection` and run `npm publish`.
+```
+import { NgxIntersectionComponent } from 'ngx-intersection';
 
-## Running unit tests
+@NgModule({
+  declarations: [YourComponent],
+  imports: [NgxIntersectionComponent],
+})
+export class YourModule {}
+```
 
-Run `ng test ngx-intersection` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Using
 
-## Further help
+`HTML` template:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+<ngx-intersection (isIntersecting)="handleIntersection()" [threshold]="threshold">
+<!-- Your markup here -->
+</ngx-intersection>
+```
+
+`TS`:
+
+```
+// default value is 0.75
+threshold = 0.25;
+
+handleIntersection() {
+    // do smth
+}
+```
+
+\*\*\* `threshold` is the percentage of the observed element within the root. Use this to trigger an intersection when a percentage of the observed element is within the root i.e. trigger when 65% of my element is within the viewport (root). Values are % based between 0 and 1. i.e. threshold: .65

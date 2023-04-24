@@ -1,6 +1,28 @@
 {
   "name": "ngx-intersection",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "Catching the moment when the specific part of an element is visible in the viewport",
+  "author": {
+    "name": "Odilbek Utamuratov",
+    "email": "odil.utamuratov@gmail.com",
+    "url": "https://medium.com/@odil.utamuratov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/utamuratov/intersection.git"
+  },
+  "bugs": {
+    "url": "https://github.com/utamuratov/intersection/issues",
+    "email": "odil.utamuratov@gmail.com"
+  },
+  "homepage": "https://github.com/utamuratov/intersection#readme",
+  "keywords": [
+    "angular",
+    "intersection",
+    "element",
+    "handle"
+  ],
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^15.2.0",
     "@angular/core": "^15.2.0"
