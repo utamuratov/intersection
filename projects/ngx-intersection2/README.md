@@ -9,7 +9,7 @@ This component handles the intersection point of viewport with observed element.
 Use this following command to install:
 
 ```bash
-npm i ngx-intersection
+npm i ngx-intersection2
 ```
 
 # Usage
@@ -17,7 +17,7 @@ npm i ngx-intersection
 You can import the component(standalone component) into your module or component which you want to use:
 
 ```
-import { NgxIntersectionComponent } from 'ngx-intersection';
+import { NgxIntersectionComponent } from 'ngx-intersection2';
 
 @NgModule({
   declarations: [YourComponent],

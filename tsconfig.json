@@ -12,8 +12,8 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "paths": {
-      "ngx-intersection": [
-        "dist/ngx-intersection"
+      "ngx-intersection2": [
+        "dist/ngx-intersection2"
       ]
     },
     "declaration": false,

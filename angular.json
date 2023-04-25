@@ -94,23 +94,23 @@
         }
       }
     },
-    "ngx-intersection": {
+    "ngx-intersection2": {
       "projectType": "library",
-      "root": "projects/ngx-intersection",
-      "sourceRoot": "projects/ngx-intersection/src",
+      "root": "projects/ngx-intersection2",
+      "sourceRoot": "projects/ngx-intersection2/src",
       "prefix": "ngx",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/ngx-intersection/ng-package.json"
+            "project": "projects/ngx-intersection2/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ngx-intersection/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ngx-intersection2/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/ngx-intersection/tsconfig.lib.json"
+              "tsConfig": "projects/ngx-intersection2/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -118,7 +118,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/ngx-intersection/tsconfig.spec.json",
+            "tsConfig": "projects/ngx-intersection2/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"
