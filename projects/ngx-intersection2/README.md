@@ -1,7 +1,5 @@
 # NgxIntersection
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
-This component handles the intersection point of viewport with observed element.
 [DEMO](https://stackblitz.com/edit/angular-aj7f19?file=src/main.ts)
 
 # Installation

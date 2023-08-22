@@ -1,6 +1,6 @@
 {
   "name": "ngx-intersection2",
-  "version": "1.0.1",
+  "version": "2.1.2",
   "description": "Catching the moment when the specific part of an element is visible in the viewport",
   "author": {
     "name": "Odilbek Utamuratov",
@@ -18,14 +18,16 @@
   "homepage": "https://github.com/utamuratov/intersection#readme",
   "keywords": [
     "angular",
+    "angular 15",
+    "angular 16",
     "intersection",
     "element",
     "handle"
   ],
   "license": "MIT",
   "peerDependencies": {
-    "@angular/common": "^15.2.0",
-    "@angular/core": "^15.2.0"
+    "@angular/common": ">=15.0.0",
+    "@angular/core": ">=15.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
