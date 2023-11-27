@@ -1,6 +1,6 @@
 {
   "name": "ngx-intersection2",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "description": "Catching the moment when the specific part of an element is visible in the viewport",
   "author": {
     "name": "Odilbek Utamuratov",

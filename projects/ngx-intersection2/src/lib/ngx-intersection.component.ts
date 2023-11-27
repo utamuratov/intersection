@@ -52,6 +52,8 @@ export class NgxIntersectionComponent implements AfterViewInit, OnDestroy {
       (entries) => {
         if (entries[0].isIntersecting === true) {
           this.isIntersecting.emit(true);
+        } else {
+          this.isIntersecting.emit(false);
         }
       },
       {
